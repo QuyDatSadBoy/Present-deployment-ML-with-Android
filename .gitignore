@@ -89,6 +89,22 @@ Thumbs.db
 models/
 weights/
 
+# File model trong assets (cực kỳ quan trọng!)
+**/assets/*.pt
+**/assets/*.h5
+**/assets/*.pb
+**/assets/*.tflite
+**/assets/*.onnx
+**/assets/*.pth
+**/assets/model*
+**/assets/weight*
+
+# Build intermediates có chứa models
+**/build/intermediates/assets/**/*.pt
+**/build/intermediates/assets/**/*.h5
+**/build/intermediates/assets/**/*.pb
+**/build/intermediates/assets/**/*.tflite
+
 # Dataset và ảnh training (thường rất nặng)
 datasets/
 data/
